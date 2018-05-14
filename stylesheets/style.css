@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: #f1f1f1;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+.content h1 {
+  font-family: Circular Std;
+  font-size:49px;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.content .download {
+  margin-left: auto;
+	margin-right: auto;
+  display: block;
+  margin-top: 80px;
+  height: 71px;
+  width: 193px;
+}
+
+.container {
+  margin-top: 2em;
+}
+
+.header {
+  width: 100%;
+  display: inline-block;
+}
+
+.logo {
+  float: left;
+}
+
+.logo img {
+  height: 50px;
+  width: 50px;
+}
+
+.logo p {
+  margin-left: 12px;
+  color: #fff;
+  font-family: Circular Std;
+  font-size: 29px;
+  float: right;
+}
+
+.phoneSignup {
+  width: 30%;
+  float: right;
+  height: 50px;
+}
+
+.input {
+  background-color: #f7f7f7;
+  height: 100%;
+  width: 65%;
+  border-top-left-radius: .6em;
+  border-bottom-left-radius: .6em;
+  float: left;
+  border: none;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.button {
+  background-color: #2EF1E9;
+  width: 35%;
+  height: 100%;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+  float: right;
+  font-family: Circular Std;
+  font-size: 14px;
+}
+
+.button p {
+  margin-top: 12%;
+  margin-left: 23px;
+}
+
